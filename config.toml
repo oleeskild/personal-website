@@ -1,0 +1,71 @@
+baseURL = "http://oleeskild.no"
+languageCode = "no-nb"
+title = "Ole Eskild Steensen"
+theme = "identity"
+
+disableKinds = ["page", "section", "taxonomy", "taxonomyTerm", "RSS", "sitemap", "robotsTXT", "404"]
+
+# Personal data
+  [params.personal]
+    # If name is not set, author is used
+    name = "Ole Eskild Steensen"
+    # Avatars can be written to images/avatars/
+    avatar = "selfie.png"
+    position = "Student & utvikler"
+    livesIn = "[Bergen, Norge](https://goo.gl/maps/6ZPtYrbkEzT2)"
+    #scope = [
+     #   "Maintainer for [WebNovel](https://github.com/oleeskild/webnovel)",
+     #   "Open Source [community management](#)"
+     # ]
+    biography = """Er foreløpig i gang med å ta en master i programutvikling ved UiB"""
+
+  # Contact form settings
+
+  [params.contact]
+    # Since this template is static, the contact form uses www.formspree.io as a
+    # proxy. The form makes a POST request to their servers to send the actual
+    # email. Visitors can send up to a 1000 emails each month for free.
+    #
+    # What you need to do for the setup?
+    #
+    # - set your email address under 'email' below
+    # - upload the generated site to your server
+    # - send a dummy email yourself to confirm your account
+    # - click the confirm link in the email from www.formspree.io
+    # - you're done. Happy mailing!
+
+    email = "oleeskilds@gmail.com"
+
+    # It is possible to substitute formspring with other providers
+    # as an example the mailout plugin from caddy.
+    # Provide the post URL for the form and depending on the provider
+    # add some custom JS script to finish the implementation.
+
+    #postURL = "https://example.com/mailout/"
+
+    enable = true
+    title = "Ta kontakt"
+    namePlaceholder = "Navn"
+    emailPlaceholder = "Email"
+    messagePlaceholder = "Melding"
+    buttonText = "Send"
+    success = "Da har jeg fått meldingen din!"
+    error = "Ops...ser ut som vi ikke klarte å sende meldingen"
+
+    # Social settings
+    # You may change these with your social links or add others
+
+  [[params.social]]
+    title = "Github"
+    icon = "fa-github"
+    link = "http://github.com/oleeskild"
+    target = "_blank"
+
+  [[params.social]]
+    title = "Facebook"
+    icon = "fa-facebook"
+    link = "https://facebook.com/oleeskild"
+    target = "_blank"
+
+    [params.footer]
+        copyright = "Ole Eskild Steensen"

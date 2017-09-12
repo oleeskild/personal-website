@@ -5,6 +5,8 @@ theme = "identity"
 
 disableKinds = ["page", "section", "taxonomy", "taxonomyTerm", "RSS", "sitemap", "robotsTXT", "404"]
 
+googleAnalytics = "UA-47363752-3"
+
 # Personal data
   [params.personal]
     # If name is not set, author is used
